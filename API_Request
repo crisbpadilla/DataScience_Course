@@ -1,0 +1,8 @@
+# will use an API (space x REST IPA) to webscrapping data as rocket used, payroll delivery, landing etc.
+#https://api.spacexdata.com/v4/launches/past
+
+import requests
+
+url="https://api.spacexdata.com/v4/launches/past"
+response= requests.get(url)
+response.json()
