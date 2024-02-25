@@ -6,3 +6,5 @@ import requests
 url="https://api.spacexdata.com/v4/launches/past"
 response= requests.get(url)
 response.json()
+# to transform this json file in a data frame we usde:
+df=pd.json_normalized(response.json())
