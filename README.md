@@ -9,4 +9,7 @@ With this View, will be possible to analized different kind of information relat
 
 ### Webscraping using API
  In the first part of this project the data was obtain using an API, for this matter jupyter notebook was used, getting great part of the code from the lab material given by IBM developers. This material was used to obtain the historical data, but at the same time dive deeper in the coding related with this task. 
- The code that includes analysis and personal insigths is in this link <a href= 'SpaceX_webscraping.ipynb'> Web Scraping using IPA </a>.
+ The code that includes analysis and personal insigths it is in this link <a href= 'SpaceX_webscraping.ipynb'> Web Scraping using IPA </a>. 
+### webscraping using beutifulSoup 
+  The second tool used was parsering the data using <b>BeautifulSoup</b> object, for this matter, the course material was completed and the code given by the platform (IBM by coursera) <a href='jupyter-labs-webscraping.ipynb'> Lab webscraping using BeautifulSoup by IBM developers</a>.
+  So, as the intention of understanding the methods and coding used, also was created another Jupiter notebook file with all the analysis of the different coding used in this project and developing an alternate way to parsing data with beautifulSoup object <a href='SpaceX_Soup.ipynb'> Code Training to obtain data using beautifulSoup(on construction)<a/>.
