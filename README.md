@@ -8,3 +8,5 @@
 With this View, will be possible to analized different kind of information related with the rockets launched and create visualization to obtain insights trought its analysis and also determined if spacial X will reuse the first stage using the gathered data.
 
 ### Webscraping using API
+ In the first part of this project the data was obtain using an API, for this matter jupyter notebook was used, getting great part of the code from the lab material given by IBM developers. This material was used to obtain the historical data, but at the same time dive deeper in the coding related with this task. 
+ The code that includes analysis and personal insigths is in this link <a href= 'SpaceX_webscraping.ipynb'> Web Scraping using IPA </a>.
