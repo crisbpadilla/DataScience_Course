@@ -16,4 +16,7 @@ Once the <b> html data is converted into a DataFrame </b> it will be possible to
   So, as the intention of understanding the methods and coding used, also was created another Jupiter notebook file with all the analysis of the different coding used in this project and developing an alternative way to parsing data with beautifulSoup object <a href='SpaceX_Soup.ipynb'> Code Training to obtain data using beautifulSoup(complete)<a/>. Obtaining the historical data of the rocket launched in between 2010 and 2019 from the webpage <link>https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches_(2010%E2%80%932019</link>
 
 ## Data Wrangling
+(not yet uodated)
+## Data analysis and visualizations
 
+  Flium is another package in python that allows to work with coordinates using markers, points, polygons and other figures to visualized data on a map. This library was used to identify the launch sites in a map and show a count of the success and fails launch of the falcon 9.
