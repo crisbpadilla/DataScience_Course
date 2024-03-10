@@ -16,7 +16,12 @@ Once the <b> html data is converted into a DataFrame </b> it will be possible to
   So, as the intention of understanding the methods and coding used, also was created another Jupiter notebook file with all the analysis of the different coding used in this project and developing an alternative way to parsing data with beautifulSoup object <a href='SpaceX_Soup.ipynb'> Code Training to obtain data using beautifulSoup(complete)<a/>. Obtaining the historical data of the rocket launched in between 2010 and 2019 from the webpage <link>https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches_(2010%E2%80%932019</link>
 
 ## Data Wrangling
-(not yet uodated)
+(not yet updated)
 ## Data analysis and visualizations
 
-  Flium is another package in python that allows to work with coordinates using markers, points, polygons and other figures to visualized data on a map. This library was used to identify the launch sites in a map and show a count of the success and fails launch of the falcon 9.
+  Folium is another package in python that allows to work with maps and coordinates using markers, points, polygons and other figures to visualized data on a map. This library was used to identify the launch sites in the map and show a count of the success and fails launch of the falcon 9 <a href='https://github.com/crisbpadilla/DataScience_Course/blob/main/lab_jupyter_launch_site_location.jupyterlite.ipynb'> Map analysis </a> . In this laboratory, the main visualizations obtain were as follow:
+  * Create a circular radius around the unique values of the launch sites, obtained using the grouoby function. Using the first coordinate as the value associated to long and lat.
+  * create markers with red color for the launch that have failed and green for those that have succeded.
+  * create a cluster marker object to visuaized the the markers group by faill and success launches.
+  * determined the distance between a specific launch site coordenates to four different reference points (coast line, highway,railway and closer city).
+  
