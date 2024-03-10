@@ -19,7 +19,7 @@ Once the <b> html data is converted into a DataFrame </b> it will be possible to
 (not yet updated)
 ## Data analysis and visualizations
 
-  Folium is another package in python that allows to work with maps and coordinates using markers, points, polygons and other figures to visualized data on a map. This library was used to identify the launch sites in the map and show a count of the success and fails launch of the falcon 9 <a href='https://github.com/crisbpadilla/DataScience_Course/blob/main/lab_jupyter_launch_site_location.jupyterlite.ipynb'> Map analysis </a> . In this laboratory, the main visualizations obtain were as follow:
+  Folium is another package in python that allows to work with maps and coordinates using markers, points, polygons and other figures to visualized data on a map. This library was used to identify the launch sites in the map and show a count of the success and fails launch of the falcon 9 <a href='https://github.com/crisbpadilla/DataScience_Course/blob/main/lab_jupyter_launch_site_location.jupyterlite.ipynb'> IBM lab to Map analysis </a> . In this laboratory, the main visualizations obtain were as follow:
   * Create a circular radius around the unique values of the launch sites, obtained using the grouoby function. Using the first coordinate as the value associated to long and lat.
   * create markers with red color for the launch that have failed and green for those that have succeded.
   * create a cluster marker object to visuaized the the markers group by faill and success launches.
