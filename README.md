@@ -27,13 +27,16 @@ Once the <b> html data is converted into a DataFrame </b> it will be possible to
 ### creating a dashboard
 
   Creating a dashboard using Dash package, a dahsboard was created with dropdown object using the attribute option to select the launching sites from the DataFrame. two graph were created, a pai chart with the sites and their success rate and a scatter plot with the correlation between the payload and the outcome of the launch, where also it is possible to select the payload weight using a slider. This dashboard was used to answered the next questions:
-<b>Which site has the largest successful launches?</b>
-KSC LC-39A has 41.7% of success, the highest among the Launching sites
-<b>Which site has the highest launch success rate?</b>
-KSC LC-39A has the largest launch succes with a 76.9% of success
-<b>Which payload range(s) has the highest launch success rate?</b>
-
+<b>Which site has the largest successful launches?</b>.
+KSC LC-39A has 41.7% of success, the highest among the Launching sites.
+<b>Which site has the highest launch success rate?</b>.
+KSC LC-39A has the largest launch succes with a 76.9% of success.
+<b>Which payload range(s) has the highest launch success rate?</b>.
+ Considering all the sites, between 300 kg and 5400 kg are the highest success rate, specially for the buster version B5, that has 100% of success but taking in account that there is only one launch for this particular version, so it is not deterministic.
 <b>Which payload range(s) has the lowest launch success rate?</b>
-<b>Which F9 Booster version (v1.0, v1.1, FT, B4, B5, etc.) has the highest</b>
-<b>launch success rate?</b>
-  
+ Depending of the booster model, the failure rate and the range of success changed notoriously:
+ *The model V.1.0 has the maximum failure rate, as 100% of the launches has a negative outcome.
+ * Second worst failure rate is for the next model V.1.1, both of them between 0 kg and 5000 kg.
+ * So considering this, the payload range with the maximum failure rate would be between [500,1900],[3700,4600] and over 5300 kg.
+<b>Which F9 Booster version (v1.0, v1.1, FT, B4, B5, etc.) has the highest launch success rate?</b>
+  b5 as it has just one sucesfull launch.
