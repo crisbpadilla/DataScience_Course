@@ -10,7 +10,7 @@ Once the <b> html data is converted into a DataFrame </b> it will be possible to
 
 ### Webscraping using API
  In the first part of this project the data was obtain using an API, for this matter jupyter notebook was used, getting great part of the code from the lab material given by IBM developers. This material was used to obtain the historical data, but at the same time dive deeper in the coding related with this task. 
- The code that includes analysis and personal insigths it is in this link <a href= 'SpaceX_webscraping.ipynb'> Web Scraping using IPA </a>. 
+ The code that includes analysis and personal insigths it is in this link <a href= 'SpaceX_webscraping.ipynb'> Web Scraping using IPA <a/>. 
 ### webscraping using beutifulSoup 
   The second tool used was parsering the data using <b>BeautifulSoup</b> object, for this matter, the course material was completed and the code given by the platform (IBM by coursera) <a href='jupyter-labs-webscraping.ipynb'> Lab webscraping using BeautifulSoup by IBM developers</a>.
   So, as the intention of understanding the methods and coding used, also was created another Jupiter notebook file with all the analysis of the different coding used in this project and developing an alternative way to parsing data with beautifulSoup object <a href='SpaceX_Soup.ipynb'> Code Training to obtain data using beautifulSoup(complete)<a/>. Obtaining the historical data of the rocket launched in between 2010 and 2019 from the webpage <link>https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches_(2010%E2%80%932019</link>
@@ -22,7 +22,7 @@ Once the <b> html data is converted into a DataFrame </b> it will be possible to
  Payload: fuel load used in stage one measure in kg.
  Outcome: concatenation of boolean variable of success or failure plus the landing dock or surface.
  
- For this part, the outcome category was considered to identify the success of failure of the first stage landing of the falcon 9 rockets. This values were storage in a new column named 'Class' that contains a binary response where '0' are the fail landings and '1' the ones that succeded. The code can be find in <a> href=https://github.com/crisbpadilla/DataScience_Course/blob/main/labs-jupyter-spacex-Data%20wrangling%20(1).ipynb > Data wrangling landing Outcomes </a> (not yet updated)
+ For this part, the outcome category was considered to identify the success of failure of the first stage landing of the falcon 9 rockets. This values were storage in a new column named 'Class' that contains a binary response where '0' are the fail landings and '1' the ones that succeded. The code can be find in <a href='https://github.com/crisbpadilla/DataScience_Course/blob/main/labs-jupyter-spacex-Data%20wrangling%20(1).ipynb' > Data wrangling landing Outcomes </a> (not yet updated)
 ## Data analysis and visualizations
 
   Folium is another package in python that allows to work with maps and coordinates using markers, points, polygons and other figures to visualized data on a map. This library was used to identify the launch sites in the map and show a count of the success and fails launch of the falcon 9 <a href='https://github.com/crisbpadilla/DataScience_Course/blob/main/lab_jupyter_launch_site_location.jupyterlite.ipynb'> IBM lab to Map analysis </a> . In this laboratory, the main visualizations obtain were as follow:
