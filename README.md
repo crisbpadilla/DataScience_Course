@@ -22,7 +22,7 @@ Once the <b> html data is converted into a DataFrame </b> it will be possible to
  Payload: fuel load used in stage one measure in kg.
  Outcome: concatenation of boolean variable of success or failure plus the landing dock or surface.
  
- For this part, the outcome category was considered to identify the success of failure of the first stage landing of the falcon 9 rockets. This values were storage in a new column named 'Class' that contains a binary response where '0' are the fail landings and '1' the ones that succeded. The code can be find in <a> href= > Data wrangling landing Outcomes </a> (not yet updated)
+ For this part, the outcome category was considered to identify the success of failure of the first stage landing of the falcon 9 rockets. This values were storage in a new column named 'Class' that contains a binary response where '0' are the fail landings and '1' the ones that succeded. The code can be find in <a> href=https://github.com/crisbpadilla/DataScience_Course/blob/main/labs-jupyter-spacex-Data%20wrangling%20(1).ipynb > Data wrangling landing Outcomes </a> (not yet updated)
 ## Data analysis and visualizations
 
   Folium is another package in python that allows to work with maps and coordinates using markers, points, polygons and other figures to visualized data on a map. This library was used to identify the launch sites in the map and show a count of the success and fails launch of the falcon 9 <a href='https://github.com/crisbpadilla/DataScience_Course/blob/main/lab_jupyter_launch_site_location.jupyterlite.ipynb'> IBM lab to Map analysis </a> . In this laboratory, the main visualizations obtain were as follow:
